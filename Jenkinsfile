@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    IMAGE = "hyeyeon763/ec2"
+    IMAGE = "hyeyeon763/java"
     TAG   = "${env.BUILD_ID}"
   }
   stages {
